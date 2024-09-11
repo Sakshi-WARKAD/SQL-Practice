@@ -1,0 +1,40 @@
+Types of SQL Commands :=
+
+SQL (Structured Query Language) commands are categorized into different types based on their functionality. 
+These categories help in managing databases, data, and users. Here are the main types:
+
+### 1. Data Definition Language (DDL):-
+   These commands define the structure of the database and its objects (like tables).
+   - **CREATE**: Creates a new table, view, or database.
+   - **ALTER**: Modifies an existing table or database.
+   - **DROP**: Deletes a table, view, or database.
+   - **TRUNCATE**: Removes all records from a table but keeps the table structure.
+   - **RENAME**: Renames a database object.
+
+
+### 2. Data Manipulation Language (DML):-
+   These commands are used to manage data within database objects (like tables).
+   - **SELECT**: Retrieves data from the database.
+   - **INSERT**: Adds new data into a table.
+   - **UPDATE**: Modifies existing data in a table.
+   - **DELETE**: Removes data from a table.
+
+
+### 3. Data Control Language (DCL):-
+   These commands manage permissions and control access to the database.
+   - **GRANT**: Gives user privileges to access the database.
+   - **REVOKE**: Removes user privileges.
+
+
+### 4. Transaction Control Language (TCL):-
+   These commands manage the changes made by DML statements and ensure the integrity of transactions.
+   - **COMMIT**: Saves the current transaction.
+   - **ROLLBACK**: Reverts the current transaction.
+   - **SAVEPOINT**: Sets a savepoint within a transaction to which you can later roll back.
+   - **SET TRANSACTION**: Sets the characteristics of the current transaction (like read/write access).
+
+
+### 5. Data Query Language (DQL):-
+   - **SELECT**: Although part of DML, it is often considered separately as DQL since it is used only for querying data from the database.
+
+These SQL command types work together to allow for the effective management and manipulation of database systems.
